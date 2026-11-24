@@ -160,6 +160,23 @@ textarea {
   transition: transform 0.3s var(--ease-apple);
 }
 
+.brand-logo-img {
+  height: 42px;
+  width: auto;
+  max-width: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #000000;
+  display: block;
+  transition: transform 0.3s var(--ease-apple), border-color 0.3s ease;
+}
+
+.brand-entity:hover .brand-logo-img {
+  transform: scale(1.06);
+  border-color: var(--color-champagne);
+}
+
 .brand-entity:hover .brand-monogram {
   transform: rotate(90deg);
   border-color: var(--color-champagne);
@@ -1365,7 +1382,7 @@ textarea {
 
 .telemetry-num {
   font-family: var(--font-sans);
-  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  font-size: clamp(1.75rem, 2.3vw, 2.1rem);
   font-weight: 800;
   letter-spacing: -0.04em;
   background: linear-gradient(180deg, #ffffff 35%, var(--color-champagne) 100%);
@@ -1375,7 +1392,7 @@ textarea {
 }
 
 .telemetry-unit {
-  font-size: 1.35rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--color-champagne);
 }
@@ -1887,6 +1904,25 @@ textarea {
   border: 1px solid var(--color-hairline-accent);
   padding: 3px 8px;
   border-radius: var(--radius-sm);
+}
+
+.card-approx-area {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-text-dim);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 14px;
+}
+
+.card-approx-area-val {
+  color: var(--color-champagne);
+  font-weight: 700;
 }
 
 .card-action-row {

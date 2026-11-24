@@ -1,5 +1,5 @@
 /**
- * ERBAĞA İNŞAAT — High-End Creative Technologist Engine
+ * ERBAĞLARMSY İNŞAAT — High-End Creative Technologist Engine
  * Ultra-Smooth Momentum Lerp Scroller, Dynamic Blueprint LiDAR Scanner & 3D Telemetry Systems
  */
 
@@ -12,224 +12,32 @@ const PROJECTS = [
     loc: 'İstanbul / Özel Parsel',
     year: '2026',
     type: 'Müstakil Konak & Bahçe Yerleşimi',
-    area: '3.200 m² Kapalı Alan',
+    area: 'Yaklaşık ~3.500 m²',
     status: 'TAMAMLANDI',
     statusTone: 'ready',
     images: [
       'Proje_Resimler/Erbağalar_Konak1.jpg',
       'Proje_Resimler/Erbağalar_Konak2.jpg'
     ],
-    summary: 'Geniş bahçeli müstakil konak projesi. Özel cephe aydınlatması ve ferforje detaylarla tasarlandı.',
+    summary: 'Geniş bahçeli müstakil konak projesi. Özel mimari cephe aydınlatması ve ferforje detaylarla tasarlandı.',
     specs: ['Müstakil Bahçe', 'Geniş Panoramik Cam', 'Özel Peyzaj'],
     details: 'Gündüz doğal peyzajı ve akşam mimari cephe aydınlatmasıyla öne çıkan, geniş teraslı, bağımsız bahçe alanına sahip yüksek standartlı konak yerleşimi.'
   },
   {
-    id: 'torium-avm',
-    title: 'Torium AVM',
-    category: 'ticari',
-    categoryLabel: 'Alışveriş & Eğlence',
-    loc: 'Esenyurt / Haramidere E-5',
-    year: '2025',
-    type: 'Temalı Alışveriş & Eğlence Merkezi',
-    area: '180.000 m² İnşaat',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Torium_Avm.jpg'],
-    summary: 'E-5 üzerinde kar parkı ve eğlence alanlarıyla öne çıkan dev alışveriş merkezi.',
-    specs: ['Perforje Cephe Kabuğu', 'Geniş Açıklıklı Çatı', 'Çok Katlı Otopark'],
-    details: 'E-5 karayolu aksında dikkat çekici dış cephe tasarımı, yüksek taşıma kapasiteli döşeme sistemleri ve eğlence temalı geniş iç hacimleriyle tamamlanan dev ticari kompleks.'
-  },
-  {
-    id: 'korupark-avm',
-    title: 'Korupark AVM',
-    category: 'ticari',
-    categoryLabel: 'Alışveriş Merkezi',
-    loc: 'Osmangazi, Bursa',
-    year: '2025',
-    type: 'Bölgesel Alışveriş & Yaşam Merkezi',
-    area: '165.000 m² Ticari Hacim',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Korıpark_Avm.webp'],
-    summary: 'Bursa\'nın en büyük alışveriş merkezlerinden biri. Silindirik cam atriyumuyla dikkat çeker.',
-    specs: ['Silindirik Atriyum', 'Büyük Ölçekli Çelik', 'Açık & Kapalı Otopark'],
-    details: 'Büyük açıklıklı çelik çatı konstrüksiyonu, gün ışığı alan dairesel giriş rotunda yapısı ve entegre ulaşım akslarıyla yüksek ziyaretçi trafiğine uygun tasarlanan alışveriş merkezi.'
-  },
-  {
-    id: 'lalahan-elektronik-harp',
-    title: 'Ankara Lalahan Elektronik Harp Komutanlığı',
-    category: 'kurumsal',
-    categoryLabel: 'Savunma & Kampüs',
-    loc: 'Lalahan / Elmadağ, Ankara',
-    year: '2025',
-    type: 'Yüksek Güvenlikli Askeri Teknoloji Kampüsü',
-    area: '140.000 m² Kampüs Alanı',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Ankara_Lalahan_Elektronik_Harp_Komutanlığı.jpg'],
-    summary: 'Özel güvenlik standartlarında inşa edilen stratejik askeri teknoloji yerleşkesi.',
-    specs: ['Stratejik Kampüs', 'Özel Teknik Altyapı', 'Çoklu Hizmet Binası'],
-    details: 'Yüksek güvenlik ve özel mühendislik şartnamelerine göre inşa edilen; komuta, teknik operasyon, hangar, eğitim ve sosyal tesis bloklarından oluşan kapsamlı yerleşke.'
-  },
-  {
-    id: 'nish-adalar',
-    title: 'Nish Adalar',
-    category: 'rezidans',
-    categoryLabel: 'Site & Rezidans',
-    loc: 'Maltepe, Süreyyapaşa',
-    year: '2025',
-    type: 'Büyük Ölçekli Panorama Konutları',
-    area: '95.000 m² Yaşam Vadisi',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/NİSH ADALAR.png'],
-    summary: 'Adalar manzarasına hakim, sosyal donatılarla donatılmış büyük ölçekli konut yerleşkesi.',
-    specs: ['Adalar Manzarası', 'Sosyal Donatılar', 'Çoklu Blok'],
-    details: 'Yamaç topoğrafyasına uyumlu kademeli yerleşimiyle her blokta ferah görüş açısı sunan, açık havuzları, spor sahaları ve peyzaj teraslarıyla bütünleşen kapsamlı konut projesi.'
-  },
-  {
-    id: 'kucukcekmece-bizim-mahalle',
-    title: 'Küçükçekmece Bizim Mahalle',
-    category: 'donusum',
-    categoryLabel: 'Kentsel Dönüşüm',
-    loc: 'Küçükçekmece, İstanbul',
+    id: 'gokturk-kemer-villalari',
+    title: 'Göktürk Kemer Villaları',
+    category: 'villa',
+    categoryLabel: 'Lüks Villa',
+    loc: 'Göktürk / Eyüpsultan',
     year: '2026',
-    type: 'Yatay Mimari Kentsel Dönüşüm',
-    area: '84.000 m² Yaşam Alanı',
-    status: 'ETAP TESLİMİ',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/küçükçekmece_bizim_mahalle_kenstel.jpg'],
-    summary: 'Mahalle kültürünü modern yatay mimariyle buluşturan kapsamlı kentsel dönüşüm projesi.',
-    specs: ['Yatay Mimari', 'Avlu & Su Peyzajı', 'Geniş Sosyal Alan'],
-    details: 'Deprem yönetmeliğine tam uyumlu az katlı konut blokları, araç trafiğinden arındırılmış yürüyüş aksları, gölgelikli dinlenme alanları ve merkezi yansıma havuzlarıyla planlanan örnek kentsel dönüşüm.'
-  },
-  {
-    id: 'nish-istanbul',
-    title: 'Nish İstanbul',
-    category: 'ticari',
-    categoryLabel: 'Ticari & Rezidans',
-    loc: 'Bahçelievler, Yenibosna',
-    year: '2025',
-    type: '4 Kuleli İş & Yaşam Merkezi',
-    area: '72.000 m² Karma Kompleks',
+    type: 'Özel Havuzlu Doğa Villaları',
+    area: 'Yaklaşık ~8.200 m²',
     status: 'TAMAMLANDI',
     statusTone: 'ready',
-    images: ['Proje_Resimler/NİSH İSTANBUL.png'],
-    summary: 'Cam giydirme cepheli 4 kulesiyle İstanbul\'un öne çıkan iş ve yaşam merkezi.',
-    specs: ['Giydirme Cam Cephe', '4 Kule Kompleks', 'Yeşil Podyum'],
-    details: 'Havalimanı ve E-5 aksına yakın konumda, yüksek verimli giydirme cam cepheleri, geniş avlu meydanı ve kurumsal ofis/rezidans katlarıyla dikkat çeken simge proje.'
-  },
-  {
-    id: 'gaziosmanpasa-hastanesi',
-    title: 'Gaziosmanpaşa Devlet Hastanesi',
-    category: 'kurumsal',
-    categoryLabel: 'Sağlık Yapısı',
-    loc: 'Gaziosmanpaşa, İstanbul',
-    year: '2025',
-    type: 'Tam Teşekküllü Eğitim & Araştırma Hastanesi',
-    area: '68.000 m² Sağlık Tesisi',
-    status: 'HİZMETTE',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Gaziosmanpaşa_Devlet_Hastanesi.jpg'],
-    summary: 'Yüksek sismik güvenlikli, tam teşekküllü modern kamu hastanesi.',
-    specs: ['Kesintisiz Sağlık Altyapısı', 'Sismik Dayanım', 'Cam & Taş Cephe'],
-    details: 'Deprem sonrası kesintisiz hizmet kriterlerine uygun taşıyıcı sistem, ileri mekanik havalandırma, medikal gaz ve yüksek kapasiteli poliklinik üniteleriyle tamamlanan kamu hastanesi.'
-  },
-  {
-    id: 'uskudar-kentsel',
-    title: 'Üsküdar Kentsel Dönüşüm',
-    category: 'donusum',
-    categoryLabel: 'Kentsel Dönüşüm',
-    loc: 'Üsküdar, İstanbul',
-    year: '2026',
-    type: 'Bölgesel Kentsel Dönüşüm Etapları',
-    area: '64.000 m² Dönüşüm Alanı',
-    status: 'ETAP TESLİMİ',
-    statusTone: 'construction',
-    images: ['Proje_Resimler/Üsküdat_Kentsel.png'],
-    summary: 'Deprem yönetmeliğine uyumlu, az katlı bloklardan oluşan kapsamlı yenileme projesi.',
-    specs: ['Deprem Güvenlikli', 'Çoklu Etap', 'Modern Altyapı'],
-    details: 'Riskli yapı stokunu güvenli ve düzenli kent dokusuna dönüştüren; geniş yol aksları, istinat yapıları ve mahalle ölçeğinde az katlı bloklarıyla örnek kentsel dönüşüm uygulaması.'
-  },
-  {
-    id: 'korupark-evleri',
-    title: 'Korupark Evleri Faz 1 & 2',
-    category: 'rezidans',
-    categoryLabel: 'Rezidans & Konut',
-    loc: 'Osmangazi, Bursa',
-    year: '2025',
-    type: 'Su Peyzajlı Yaşam Kompleksi',
-    area: '58.000 m² İnşaat',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Korupark_Evleri_Faz_1 ve 2 .jpg'],
-    summary: 'Merkezi süs havuzları ve peyzaj yürüyüş yollarıyla donatılmış prestijli konut sitesi.',
-    specs: ['Yansıma Havuzları', 'Geniş Peyzaj', '7/24 Güvenlik'],
-    details: 'Bloklar arasında geniş nefes alma alanları bırakan merkezi su parkı, peyzaj aydınlatması ve modern konut katlarıyla aile yaşamına odaklanan büyük ölçekli konut projesi.'
-  },
-  {
-    id: 'zafer-plaza',
-    title: 'Zafer Plaza',
-    category: 'ticari',
-    categoryLabel: 'Şehir Meydanı & AVM',
-    loc: 'Osmangazi, Bursa',
-    year: '2025',
-    type: 'Cam Piramitli Yeraltı Çarşı & Meydan',
-    area: '52.000 m² Ticari Alan',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Zafer_Plaza.jpg'],
-    summary: 'İkonik cam piramit girişi ve çok katlı yeraltı çarşısıyla Bursa\'nın simge meydanı.',
-    specs: ['Cam Piramit Çatı', 'Derin İksa & Temel', 'Kent Meydanı'],
-    details: 'Kent siluetini koruyarak yeraltına doğru çok katlı inşa edilen, merkezindeki dev cam piramit sayesinde alt katlara doğal gün ışığı taşıyan özel mühendislik ve ticaret kompleksi.'
-  },
-  {
-    id: 'tdk-kompleksi',
-    title: 'TDK Kurumsal Kompleksi',
-    category: 'kurumsal',
-    categoryLabel: 'Kamu & Kurumsal',
-    loc: 'Ankara / Kurumsal Kampüs',
-    year: '2025',
-    type: 'Anıtsal Yıldız Planlı Kampüs',
-    area: '48.000 m² Kampüs Alanı',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/TDK.png'],
-    summary: 'Beş kollu yıldız plan geometrisiyle tasarlanan anıtsal kurumsal kampüs.',
-    specs: ['5 Kollu Yıldız Plan', 'Merkezi Kubbe', 'Kampüs Peyzajı'],
-    details: 'Özgün 5 kollu yıldız mimarisi, büyük açıklıklı giriş portalları, gece mimari aydınlatması ve geniş açık otopark/peyzaj düzenlemesiyle öne çıkan yüksek prestijli kurumsal kompleks.'
-  },
-  {
-    id: 'yali-atakoy',
-    title: 'Yalı Ataköy',
-    category: 'rezidans',
-    categoryLabel: 'Sahil Rezidans',
-    loc: 'Bakırköy, Ataköy Sahil',
-    year: '2025',
-    type: 'Denize Sıfır Rezidans Kuleleri',
-    area: '42.000 m² Toplam Alan',
-    status: 'YAŞAM BAŞLADI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/YALI ATAKÖY.png'],
-    summary: 'Marmara Denizi kıyısında panoramik manzaralı lüks sahil rezidansları.',
-    specs: ['Denize Sıfır', 'Özel İskele & Sahil', 'Panoramik Balkon'],
-    details: 'Ataköy sahil bandında kesintisiz deniz manzarasına sahip, geniş kıyı peyzajı, yatay teras hatları ve yüksek sismik dayanımla inşa edilmiş prestijli sahil rezidansları.'
-  },
-  {
-    id: 'hilton-bakirkoy',
-    title: 'Hilton İstanbul Bakırköy',
-    category: 'ticari',
-    categoryLabel: 'Lüks Otel',
-    loc: 'Bakırköy Sahil, İstanbul',
-    year: '2025',
-    type: '5 Yıldızlı Sahil Oteli & SPA',
-    area: '38.500 m² Kapalı Alan',
-    status: 'TAMAMLANDI',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Bakırköy_Hilton_İstanbul_otel.avif'],
-    summary: 'Marmara sahilinde açık havuz ve SPA tesisleriyle donatılmış 5 yıldızlı otel.',
-    specs: ['5 Yıldızlı Otel', 'Deniz Manzaralı', 'Açık Havuz & SPA'],
-    details: 'Bakırköy kıyı aksında yükselen, yüksek akustik konfora sahip konaklama kulesi, peyzajlı açık havuz avlusu ve uluslararası standartlarda teknik altyapıyla inşa edilen otel yatırımı.'
+    images: ['Proje_Resimler/Göktürk_Kemer_villa.png'],
+    summary: 'Orman sınırında özel yüzme havuzlu ve müstakil geniş bahçeli lüks yaşam villaları.',
+    specs: ['Müstakil Havuz', 'Orman Manzarası', 'Akıllı Ev'],
+    details: 'Doğayla uyumlu ahşap ve doğal taş cephe dokusu, müstakil yüzme havuzları, ferah tavan açıklıkları ve akıllı ev altyapısıyla hayata geçen seçkin villa projesi.'
   },
   {
     id: 'terrace-lotus',
@@ -239,7 +47,7 @@ const PROJECTS = [
     loc: 'Beylikdüzü / E-5 Aksı',
     year: '2026',
     type: 'Kademeli Teraslı Karma Kule',
-    area: '36.000 m² Karma Alan',
+    area: 'Yaklaşık ~65.000 m²',
     status: 'TAMAMLANDI',
     statusTone: 'ready',
     images: ['Proje_Resimler/Terrace_Lotus_Projesi.webp'],
@@ -248,84 +56,36 @@ const PROJECTS = [
     details: 'Alt katlarda geniş saçaklı ve bitkisel peyzajlı teras çarşısı, üzerinde ise kesintisiz şehir panoraması sunan modern kule bloktan oluşan karma yaşam projesi.'
   },
   {
-    id: 'route-istanbul',
-    title: 'Route İstanbul',
+    id: 'yali-atakoy',
+    title: 'Yalı Ataköy',
     category: 'rezidans',
-    categoryLabel: 'Rezidans & Ofis',
-    loc: 'Bahçelievler / E-5 Aksı',
+    categoryLabel: 'Sahil Rezidans',
+    loc: 'Bakırköy, Ataköy Sahil',
     year: '2025',
-    type: 'Karma Rezidans & Cadde Ticari',
-    area: '24.000 m² Karma Alan',
-    status: 'OTURUM HAZIR',
-    statusTone: 'ongoing',
-    images: ['Proje_Resimler/ROUTE İSTANBUL.png'],
-    summary: 'E-5 aksında ticari zemin katlı, teraslı modern şehir rezidansı.',
-    specs: ['E-5 Cepheli', 'Cadde Mağazaları', 'Teraslı Katlar'],
-    details: 'Şehir içi ana arterlere doğrudan bağlantılı, zemin katta ticari birimler ve üst katlarda yüksek konforlu rezidans dairelerinden oluşan çağdaş karma yapı.'
-  },
-  {
-    id: 'baglicalar-kentsel',
-    title: 'Bağlıcalar Kentsel Dönüşüm',
-    category: 'donusum',
-    categoryLabel: 'Kentsel Dönüşüm',
-    loc: 'Bağlıcalar / Dönüşüm Aksı',
-    year: '2026',
-    type: 'Yeni Nesil Kentsel Dönüşüm Bloğu',
-    area: '9.600 m² Kapalı Alan',
-    status: 'İSKÂNA HAZIR',
-    statusTone: 'ongoing',
-    images: ['Proje_Resimler/Bağlıcalr_Kenstel.png'],
-    summary: 'Modern taş cephe ve kapalı otoparkıyla yenilenen kentsel dönüşüm bloğu.',
-    specs: ['Çift Kapalı Otopark', 'Modern Taş Cephe', 'Yüksek Tavan'],
-    details: 'Eski yapı stoğunun yerine modern mimari çizgilerle yükselen, çift araç girişli kapalı otopark, peyzajlı yan yürüyüş yolu ve dayanıklı betonarme taşıyıcı sisteme sahip dönüşüm projesi.'
-  },
-  {
-    id: 'gokturk-kemer-villa',
-    title: 'Göktürk Kemer Villaları',
-    category: 'villa',
-    categoryLabel: 'Özel Villa',
-    loc: 'Eyüpsultan, Göktürk',
-    year: '2026',
-    type: 'Müstakil Havuzlu Villa Sitesi',
-    area: '5.400 m² Parsel & Villa',
-    status: 'İSKÂNI ALINDI',
+    type: 'Denize Sıfır Rezidans Kuleleri',
+    area: 'Yaklaşık ~48.000 m²',
+    status: 'YAŞAM BAŞLADI',
     statusTone: 'ready',
-    images: ['Proje_Resimler/Göktürk_Kemer_villa.png'],
-    summary: 'Özel yüzme havuzlu, güneş enerjili müstakil villalar. Göktürk ormanları komşuluğunda.',
-    specs: ['Özel Yüzme Havuzu', 'Güneş Enerjisi', 'Doğal Taş Cephe'],
-    details: 'Göktürk orman hattına komşu, her villaya ait müstakil yüzme havuzu, güneş enerjili çatı sistemi, pergola oturma alanları ve geniş bahçe peyzajı ile inşa edilmiş seçkin villa projesi.'
+    images: ['Proje_Resimler/YALI ATAKÖY.png'],
+    summary: 'Marmara Denizi kıyısında panoramik manzaralı lüks sahil rezidansları.',
+    specs: ['Denize Sıfır', 'Özel Sahil', 'Panoramik Balkon'],
+    details: 'Ataköy sahil bandında kesintisiz deniz manzarasına sahip, geniş kıyı peyzajı, yatay teras hatları ve yüksek sismik dayanımla inşa edilmiş prestijli sahil rezidansları.'
   },
   {
-    id: 'erbaglar-plaza',
-    title: 'Erbağlar Plaza',
+    id: 'nish-istanbul',
+    title: 'Nish İstanbul',
     category: 'ticari',
-    categoryLabel: 'Ticari Plaza',
-    loc: 'Nilüfer, Bursa',
+    categoryLabel: 'Ticari & Rezidans',
+    loc: 'Bahçelievler, Yenibosna',
     year: '2025',
-    type: 'Showroom & Kurumsal Ticari Bina',
-    area: '3.400 m² Ticari Alan',
-    status: 'AKTİF KULLANIMDA',
-    statusTone: 'ready',
-    images: ['Proje_Resimler/Erbağlar_Plaza1.png'],
-    summary: 'Reflektif cam cephe ve showroom alanıyla modern kurumsal ticari plaza.',
-    specs: ['Geniş Vitrin Cephe', 'Kurumsal Ofis', 'Ön Cephe Otopark'],
-    details: 'Ticari görünürlüğü en üst düzeye çıkaran reflektif cam cephe, zemin katta lojistik/showroom kepenk sistemi ve üst katta ferah yönetim ofisleriyle tasarlanan ticari yapı.'
-  },
-  {
-    id: 'kardelen-evleri',
-    title: 'Kardelen Evleri',
-    category: 'rezidans',
-    categoryLabel: 'Butik Konut',
-    loc: 'İstanbul / Konut Bölgesi',
-    year: '2025',
-    type: '4 Katlı Butik Aile Apartmanı',
-    area: '2.800 m² İnşaat',
+    type: '4 Kuleli İş & Yaşam Merkezi',
+    area: 'Yaklaşık ~72.000 m²',
     status: 'TAMAMLANDI',
     statusTone: 'ready',
-    images: ['Proje_Resimler/Kardelen_Evleri1.png'],
-    summary: 'Cam balkonlu, ısı yalıtımlı modern butik aile apartmanı.',
-    specs: ['Cam Balkon Sistemi', 'Yatay Mimari', 'Isı & Ses Yalıtımı'],
-    details: 'Sakin sokak dokusuna uyumlu 4 katlı mimarisi, köşe cephe cam balkonları ve güvenlikli bahçe çevresiyle öne çıkan butik konut projesi.'
+    images: ['Proje_Resimler/NİSH İSTANBUL.png'],
+    summary: 'Cam giydirme cepheli 4 kulesiyle İstanbul\'un öne çıkan iş ve yaşam merkezi.',
+    specs: ['Giydirme Cam Cephe', '4 Kule Kompleks', 'Yeşil Podyum'],
+    details: 'Havalimanı ve E-5 aksına yakın konumda, yüksek verimli giydirme cam cepheleri, geniş avlu meydanı ve kurumsal ofis/rezidans katlarıyla dikkat çeken simge proje.'
   }
 ];
 
@@ -435,7 +195,10 @@ function renderPortfolioGrid() {
         </div>
         <h3 class="card-title">${project.title}</h3>
         <p class="card-desc">${project.summary}</p>
-        <div class="card-micro-specs">${specsHtml}</div>
+        <div class="card-approx-area">
+          <span>Yaklaşık İnşaat Alanı:</span>
+          <strong class="card-approx-area-val">${project.area}</strong>
+        </div>
         <div class="card-action-row">
           <span class="btn-inspect">Projeyi İncele</span>
           <div class="action-circle-arrow">
@@ -469,7 +232,7 @@ function initHeroSlideshow() {
     currentIndex = (currentIndex + 1) % slides.length;
     slides[currentIndex].classList.add('active');
     if (label) {
-      label.textContent = (slides[currentIndex].getAttribute('alt') || 'ERBAĞA İNŞAAT').toUpperCase();
+      label.textContent = (slides[currentIndex].getAttribute('alt') || 'ERBAĞLARMSY İNŞAAT').toUpperCase();
     }
   }, 4800);
 }
