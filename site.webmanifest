@@ -1,0 +1,21 @@
+{
+  "name": "ERBAĞLAR MSY İNŞAAT",
+  "short_name": "ERBAĞLAR MSY",
+  "description": "Depreme dayanıklı sismik mühendislik, lüks konut ve kentsel dönüşüm projeleri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b38b4c",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
